@@ -4,10 +4,10 @@ import About from "../pages/About";
 import Products from "../pages/Products";
 import ProductDetails from "../pages/ProductDetails";
 import NotFound from "../pages/NotFound";
-import { AppBar } from "./AppBar";
-import { Mission } from "./Mission";
-import { Team } from "./Team";
-import { Reviews } from "./Reviews";
+import AppBar from "./AppBar";
+import Mission from "./Mission";
+import Team from "./Team";
+import Reviews from "./Reviews";
 import css from "./App.module.css";
 
 const App = () => {
