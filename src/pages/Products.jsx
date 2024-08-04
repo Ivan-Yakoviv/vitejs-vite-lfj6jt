@@ -1,9 +1,14 @@
-import React from 'react'
+import { ProductList } from "../components/ProductList";
+import { getProducts } from "../fakeApi";
 
 const Products = () => {
-  return (
-    <div>Products</div>
-  )
-}
+  const products = getProducts();
 
-export default Products
+  return (
+    <main>
+      <ProductList products={products} />
+    </main>
+  );
+};
+
+export default Products;

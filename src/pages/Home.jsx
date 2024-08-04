@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <main>
+      <h1>Welcome</h1>
+      <img src="https://via.placeholder.com/960x240" alt="" />
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+        laboriosam placeat incidunt rem illum animi nemo quibusdam quia
+        voluptatum voluptate.
+      </p>
+    </main>
+  );
+};
 
-export default Home
+export default Home;
